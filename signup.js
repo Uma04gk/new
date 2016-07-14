@@ -28,6 +28,7 @@ localStorage.setItem("password", password.value);
 var password1= document.getElementById("Confirm-Password");
 
 
+
 if(password1.value!=password.value)
 {
 
@@ -36,5 +37,6 @@ return false;
 }
 
 
-
+window.location = "login.html";
+return false;
 }
